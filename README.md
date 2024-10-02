@@ -1,34 +1,13 @@
-//
-//  README.md
-//  StarProjector
-//
-//  Created by Junsu Lee on 10/2/24.
-//
-
 # StarProjector - A Night Sky Simulator for Apple Watch
 
 ## Description
 StarProjector is an Apple Watch app that simulates a starry night sky, providing a calming and immersive experience. Inspired by the concept of a digital fidget spinner, this app is designed to help users relax and potentially fall asleep by offering a soothing visual of moving stars.
 
 ## Demo
-<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;">
-  <div style="text-align: center; width: 25%;">
-    <img src="https://github.com/user-attachments/assets/f06def33-b572-4f06-9c40-53576382424d" width="100%" alt="StarProjector Screenshot 1">
-    <br>
-    <em>Initial view of StarProjector</em>
-  </div>
-  <div style="text-align: center; width: 35%;">
-    <img src="https://github.com/user-attachments/assets/ca978127-21ae-460b-b116-d0c6a9e3e2d0" width="100%" alt="StarProjector Screenshot 2">
-    <br>
-    <em>StarProjector with Apple Watch Frame</em>
-  </div>
-  <div style="text-align: center; width: 32%;">
-    <video src="https://github.com/user-attachments/assets/466d1e1e-ab8f-432a-bbec-7d52739116e1" width="100%" autoplay loop muted playsinline></video>
-    <br>
-    <em>Interaction with Digital Crown</em>
-  </div>
-</div>
 
+| Initial view of StarProjector | StarProjector with Apple Watch Frame | Interaction with Digital Crown |
+|:---:|:---:|:---:|
+| ![StarProjector Screenshot 1](https://github.com/user-attachments/assets/f06def33-b572-4f06-9c40-53576382424d) | ![StarProjector Screenshot 2](https://github.com/user-attachments/assets/ca978127-21ae-460b-b116-d0c6a9e3e2d0) | ![StarProjector Demo](https://github.com/user-attachments/assets/466d1e1e-ab8f-432a-bbec-7d52739116e1) |
 
 ## Background
 The idea for StarProjector came to me during a restless night when I was having trouble falling asleep. As I lay in bed, I raised my arm and noticed my Apple Watch. It struck me that the watch's screen could serve as a small window to a virtual night sky. 
