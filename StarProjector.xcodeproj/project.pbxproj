@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F76F2D292CAD06E000DE751F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F76F2D282CAD06D200DE751F /* README.md */; };
+		F76F2D2B2CAD06F400DE751F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F76F2D2A2CAD06E700DE751F /* .gitignore */; };
+		F76F2D2D2CAD073C00DE751F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F76F2D2C2CAD073300DE751F /* LICENSE */; };
 		F7CF1AB92CA5983200E213BC /* StarProjector Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F7CF1AB82CA5983200E213BC /* StarProjector Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -49,26 +52,51 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F76F2D282CAD06D200DE751F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F76F2D2A2CAD06E700DE751F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F76F2D2C2CAD073300DE751F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F7CF1AB22CA5983200E213BC /* StarProjector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarProjector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CF1AB82CA5983200E213BC /* StarProjector Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarProjector Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CF1ACA2CA5983400E213BC /* StarProjector Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarProjector Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CF1AD42CA5983400E213BC /* StarProjector Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarProjector Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F76F2D252CAD06C800DE751F /* Exceptions for "StarProjector" folder in "StarProjector Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"StarProjector Watch AppTests/StarProjector_Watch_AppTests.swift",
+				"StarProjector Watch AppUITests/StarProjector_Watch_AppUITests.swift",
+				"StarProjector Watch AppUITests/StarProjector_Watch_AppUITestsLaunchTests.swift",
+			);
+			target = F7CF1AB72CA5983200E213BC /* StarProjector Watch App */;
+		};
+		F76F2D262CAD06C800DE751F /* Exceptions for "StarProjector" folder in "StarProjector Watch AppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"StarProjector Watch AppTests/StarProjector_Watch_AppTests.swift",
+			);
+			target = F7CF1AC92CA5983400E213BC /* StarProjector Watch AppTests */;
+		};
+		F76F2D272CAD06C800DE751F /* Exceptions for "StarProjector" folder in "StarProjector Watch AppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"StarProjector Watch AppUITests/StarProjector_Watch_AppUITests.swift",
+				"StarProjector Watch AppUITests/StarProjector_Watch_AppUITestsLaunchTests.swift",
+			);
+			target = F7CF1AD32CA5983400E213BC /* StarProjector Watch AppUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F7CF1ABC2CA5983200E213BC /* StarProjector Watch App */ = {
+		F76F2D122CAD06B200DE751F /* StarProjector */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "StarProjector Watch App";
-			sourceTree = "<group>";
-		};
-		F7CF1ACD2CA5983400E213BC /* StarProjector Watch AppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "StarProjector Watch AppTests";
-			sourceTree = "<group>";
-		};
-		F7CF1AD72CA5983400E213BC /* StarProjector Watch AppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "StarProjector Watch AppUITests";
+			exceptions = (
+				F76F2D252CAD06C800DE751F /* Exceptions for "StarProjector" folder in "StarProjector Watch App" target */,
+				F76F2D262CAD06C800DE751F /* Exceptions for "StarProjector" folder in "StarProjector Watch AppTests" target */,
+				F76F2D272CAD06C800DE751F /* Exceptions for "StarProjector" folder in "StarProjector Watch AppUITests" target */,
+			);
+			path = StarProjector;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -101,9 +129,10 @@
 		F7CF1AAB2CA5983200E213BC = {
 			isa = PBXGroup;
 			children = (
-				F7CF1ABC2CA5983200E213BC /* StarProjector Watch App */,
-				F7CF1ACD2CA5983400E213BC /* StarProjector Watch AppTests */,
-				F7CF1AD72CA5983400E213BC /* StarProjector Watch AppUITests */,
+				F76F2D282CAD06D200DE751F /* README.md */,
+				F76F2D2A2CAD06E700DE751F /* .gitignore */,
+				F76F2D2C2CAD073300DE751F /* LICENSE */,
+				F76F2D122CAD06B200DE751F /* StarProjector */,
 				F7CF1AB32CA5983200E213BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,7 +183,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F7CF1ABC2CA5983200E213BC /* StarProjector Watch App */,
+				F76F2D122CAD06B200DE751F /* StarProjector */,
 			);
 			name = "StarProjector Watch App";
 			packageProductDependencies = (
@@ -176,9 +205,6 @@
 			dependencies = (
 				F7CF1ACC2CA5983400E213BC /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				F7CF1ACD2CA5983400E213BC /* StarProjector Watch AppTests */,
-			);
 			name = "StarProjector Watch AppTests";
 			packageProductDependencies = (
 			);
@@ -198,9 +224,6 @@
 			);
 			dependencies = (
 				F7CF1AD62CA5983400E213BC /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F7CF1AD72CA5983400E213BC /* StarProjector Watch AppUITests */,
 			);
 			name = "StarProjector Watch AppUITests";
 			packageProductDependencies = (
@@ -269,6 +292,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76F2D2B2CAD06F400DE751F /* .gitignore in Resources */,
+				F76F2D292CAD06E000DE751F /* README.md in Resources */,
+				F76F2D2D2CAD073C00DE751F /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StarProjector Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StarProjector/StarProjector Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = ATYDAX7P45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -482,7 +508,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StarProjector Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StarProjector/StarProjector Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = ATYDAX7P45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
