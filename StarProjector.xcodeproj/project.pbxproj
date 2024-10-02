@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7CF1AB92CA5983200E213BC /* StarProjector Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F7CF1AB82CA5983200E213BC /* StarProjector Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7CF1ABA2CA5983200E213BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7CF1AAC2CA5983200E213BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7CF1AB72CA5983200E213BC;
+			remoteInfo = "StarProjector Watch App";
+		};
+		F7CF1ACB2CA5983400E213BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7CF1AAC2CA5983200E213BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7CF1AB72CA5983200E213BC;
+			remoteInfo = "StarProjector Watch App";
+		};
+		F7CF1AD52CA5983400E213BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7CF1AAC2CA5983200E213BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7CF1AB72CA5983200E213BC;
+			remoteInfo = "StarProjector Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7CF1AE12CA5983400E213BC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F7CF1AB92CA5983200E213BC /* StarProjector Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F7CF1AB22CA5983200E213BC /* StarProjector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarProjector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CF1AB82CA5983200E213BC /* StarProjector Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarProjector Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CF1ACA2CA5983400E213BC /* StarProjector Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarProjector Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CF1AD42CA5983400E213BC /* StarProjector Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarProjector Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F7CF1ABC2CA5983200E213BC /* StarProjector Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "StarProjector Watch App";
+			sourceTree = "<group>";
+		};
+		F7CF1ACD2CA5983400E213BC /* StarProjector Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "StarProjector Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F7CF1AD72CA5983400E213BC /* StarProjector Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "StarProjector Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7CF1AB52CA5983200E213BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CF1AC72CA5983400E213BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CF1AD12CA5983400E213BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7CF1AAB2CA5983200E213BC = {
+			isa = PBXGroup;
+			children = (
+				F7CF1ABC2CA5983200E213BC /* StarProjector Watch App */,
+				F7CF1ACD2CA5983400E213BC /* StarProjector Watch AppTests */,
+				F7CF1AD72CA5983400E213BC /* StarProjector Watch AppUITests */,
+				F7CF1AB32CA5983200E213BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7CF1AB32CA5983200E213BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7CF1AB22CA5983200E213BC /* StarProjector.app */,
+				F7CF1AB82CA5983200E213BC /* StarProjector Watch App.app */,
+				F7CF1ACA2CA5983400E213BC /* StarProjector Watch AppTests.xctest */,
+				F7CF1AD42CA5983400E213BC /* StarProjector Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7CF1AB12CA5983200E213BC /* StarProjector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CF1AE22CA5983400E213BC /* Build configuration list for PBXNativeTarget "StarProjector" */;
+			buildPhases = (
+				F7CF1AB02CA5983200E213BC /* Resources */,
+				F7CF1AE12CA5983400E213BC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7CF1ABB2CA5983200E213BC /* PBXTargetDependency */,
+			);
+			name = StarProjector;
+			packageProductDependencies = (
+			);
+			productName = StarProjector;
+			productReference = F7CF1AB22CA5983200E213BC /* StarProjector.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F7CF1AB72CA5983200E213BC /* StarProjector Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CF1ADE2CA5983400E213BC /* Build configuration list for PBXNativeTarget "StarProjector Watch App" */;
+			buildPhases = (
+				F7CF1AB42CA5983200E213BC /* Sources */,
+				F7CF1AB52CA5983200E213BC /* Frameworks */,
+				F7CF1AB62CA5983200E213BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F7CF1ABC2CA5983200E213BC /* StarProjector Watch App */,
+			);
+			name = "StarProjector Watch App";
+			packageProductDependencies = (
+			);
+			productName = "StarProjector Watch App";
+			productReference = F7CF1AB82CA5983200E213BC /* StarProjector Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7CF1AC92CA5983400E213BC /* StarProjector Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CF1AE52CA5983400E213BC /* Build configuration list for PBXNativeTarget "StarProjector Watch AppTests" */;
+			buildPhases = (
+				F7CF1AC62CA5983400E213BC /* Sources */,
+				F7CF1AC72CA5983400E213BC /* Frameworks */,
+				F7CF1AC82CA5983400E213BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7CF1ACC2CA5983400E213BC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F7CF1ACD2CA5983400E213BC /* StarProjector Watch AppTests */,
+			);
+			name = "StarProjector Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "StarProjector Watch AppTests";
+			productReference = F7CF1ACA2CA5983400E213BC /* StarProjector Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7CF1AD32CA5983400E213BC /* StarProjector Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CF1AE82CA5983400E213BC /* Build configuration list for PBXNativeTarget "StarProjector Watch AppUITests" */;
+			buildPhases = (
+				F7CF1AD02CA5983400E213BC /* Sources */,
+				F7CF1AD12CA5983400E213BC /* Frameworks */,
+				F7CF1AD22CA5983400E213BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7CF1AD62CA5983400E213BC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F7CF1AD72CA5983400E213BC /* StarProjector Watch AppUITests */,
+			);
+			name = "StarProjector Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "StarProjector Watch AppUITests";
+			productReference = F7CF1AD42CA5983400E213BC /* StarProjector Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7CF1AAC2CA5983200E213BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F7CF1AB12CA5983200E213BC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F7CF1AB72CA5983200E213BC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F7CF1AC92CA5983400E213BC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F7CF1AB72CA5983200E213BC;
+					};
+					F7CF1AD32CA5983400E213BC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F7CF1AB72CA5983200E213BC;
+					};
+				};
+			};
+			buildConfigurationList = F7CF1AAF2CA5983200E213BC /* Build configuration list for PBXProject "StarProjector" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7CF1AAB2CA5983200E213BC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F7CF1AB32CA5983200E213BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7CF1AB12CA5983200E213BC /* StarProjector */,
+				F7CF1AB72CA5983200E213BC /* StarProjector Watch App */,
+				F7CF1AC92CA5983400E213BC /* StarProjector Watch AppTests */,
+				F7CF1AD32CA5983400E213BC /* StarProjector Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7CF1AB02CA5983200E213BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CF1AB62CA5983200E213BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CF1AC82CA5983400E213BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CF1AD22CA5983400E213BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7CF1AB42CA5983200E213BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CF1AC62CA5983400E213BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CF1AD02CA5983400E213BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7CF1ABB2CA5983200E213BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7CF1AB72CA5983200E213BC /* StarProjector Watch App */;
+			targetProxy = F7CF1ABA2CA5983200E213BC /* PBXContainerItemProxy */;
+		};
+		F7CF1ACC2CA5983400E213BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7CF1AB72CA5983200E213BC /* StarProjector Watch App */;
+			targetProxy = F7CF1ACB2CA5983400E213BC /* PBXContainerItemProxy */;
+		};
+		F7CF1AD62CA5983400E213BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7CF1AB72CA5983200E213BC /* StarProjector Watch App */;
+			targetProxy = F7CF1AD52CA5983400E213BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F7CF1ADC2CA5983400E213BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7CF1ADD2CA5983400E213BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F7CF1ADF2CA5983400E213BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarProjector Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ATYDAX7P45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StarProjector;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.yieumyoon.starwatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		F7CF1AE02CA5983400E213BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarProjector Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ATYDAX7P45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StarProjector;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.yieumyoon.starwatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		F7CF1AE32CA5983400E213BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYDAX7P45;
+				INFOPLIST_KEY_CFBundleDisplayName = StarProjector;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.yieumyoon.starwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F7CF1AE42CA5983400E213BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYDAX7P45;
+				INFOPLIST_KEY_CFBundleDisplayName = StarProjector;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.yieumyoon.starwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7CF1AE62CA5983400E213BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYDAX7P45;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.yieumyoon.starwatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarProjector Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarProjector Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		F7CF1AE72CA5983400E213BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYDAX7P45;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.yieumyoon.starwatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarProjector Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarProjector Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		F7CF1AE92CA5983400E213BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYDAX7P45;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.yieumyoon.starwatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "StarProjector Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		F7CF1AEA2CA5983400E213BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYDAX7P45;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.yieumyoon.starwatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "StarProjector Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7CF1AAF2CA5983200E213BC /* Build configuration list for PBXProject "StarProjector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CF1ADC2CA5983400E213BC /* Debug */,
+				F7CF1ADD2CA5983400E213BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CF1ADE2CA5983400E213BC /* Build configuration list for PBXNativeTarget "StarProjector Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CF1ADF2CA5983400E213BC /* Debug */,
+				F7CF1AE02CA5983400E213BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CF1AE22CA5983400E213BC /* Build configuration list for PBXNativeTarget "StarProjector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CF1AE32CA5983400E213BC /* Debug */,
+				F7CF1AE42CA5983400E213BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CF1AE52CA5983400E213BC /* Build configuration list for PBXNativeTarget "StarProjector Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CF1AE62CA5983400E213BC /* Debug */,
+				F7CF1AE72CA5983400E213BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CF1AE82CA5983400E213BC /* Build configuration list for PBXNativeTarget "StarProjector Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CF1AE92CA5983400E213BC /* Debug */,
+				F7CF1AEA2CA5983400E213BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7CF1AAC2CA5983200E213BC /* Project object */;
+}
